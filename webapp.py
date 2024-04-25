@@ -189,7 +189,7 @@ def main():
 
         html_temp4 = """
                              		<div style="background-color:#98AFC7;padding:10px">
-                             		<h4 style="color:white;text-align:center;">This Application is developed by Mayank Chonde using Streamlit Framework, Opencv, Tensorflow and Keras library for demonstration purpose. If you have any suggestion or want to comment just write a mail at nivedita.rani2020@vitstudent.ac.in . </h4>
+                             		<h4 style="color:white;text-align:center;">This Application is developed by Mayank Chonde using Streamlit Framework, Opencv, Tensorflow and Keras library for demonstration purpose. If you have any suggestion or want to comment just write a mail at mayankchonde2002@gmail.com . </h4>
                              		<h4 style="color:white;text-align:center;">Thanks for Visiting</h4>
                              		</div>
                              		<br></br>
