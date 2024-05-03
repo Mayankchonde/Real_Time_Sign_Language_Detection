@@ -175,7 +175,7 @@ def main():
         st.write("Click on start to use webcam and detect your Signs")
         webrtc_streamer(key="key", mode=WebRtcMode.SENDRECV, rtc_configuration=RTC_CONFIGURATION,
                             video_processor_factory=OpenCVVideoProcessor, 
-                            async_processing=True, media_stream_constraints={{"facingMode": "user"}: True, "audio": False}
+                            async_processing=True, media_stream_constraints={"video": {"facingMode": "user"}, "audio": False}
                             )
 
     elif choice == "About":
